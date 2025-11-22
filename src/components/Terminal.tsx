@@ -42,7 +42,7 @@ const Terminal: React.FC = () => {
       <div className="flex-1 overflow-y-auto scrollbar-hide">
         <div className="mb-4">
           <span className="text-blue-400">chandan@portfolio:~$</span> <span className="text-green-400">welcome</span>
-          <p className="mt-2 text-gray-300">Hi, I'm Mark Gatere, a Software Engineer & AI Enthusiast.</p>
+          <p className="mt-2 text-gray-300">Hi, I'm Chandan, a Fresher & AI Enthusiast.</p>
           <p className="mt-2 text-gray-300">Welcome to my interactive 'AI powered' portfolio terminal! haha!</p>
           <p className="text-gray-300">Type 'help' to see available commands.</p>
         </div>
