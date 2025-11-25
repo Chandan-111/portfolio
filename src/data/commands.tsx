@@ -89,7 +89,8 @@ export const commands: Record<string, CommandResponse> = {
         type: 'text',
         content: (
             <div className="text-gray-300">
-                <p className="mb-2">As a fresher im eiger to grow , learn and gain experience</p>
+                <p className="mb-2"> Have a hands on experience in building responsive web applications ,both front-end interfaces and backend APIs, with a focus on clean code, scalability,
+                    and user experience. Eager to learn emerging technologies and contribute to innovative software projects .</p>
             </div>
         ),
     },
