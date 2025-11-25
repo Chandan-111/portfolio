@@ -46,7 +46,7 @@ const ProfileCard: React.FC = () => {
                     className="absolute inset-4 bg-black rounded-lg border border-zinc-800 overflow-hidden flex flex-col items-center pt-8"
                 >
                     <div className="w-full flex justify-between px-4 mb-4">
-                        <span className="text-xs text-zinc-500 font-mono">chandan</span>
+                        <span className="text-xs text-zinc-500 font-mono ">chandan</span>
                     </div>
 
                     <div className="w-40 h-40 rounded-full overflow-hidden border-2 border-zinc-800 mb-6 grayscale hover:grayscale-0 transition-all duration-500">

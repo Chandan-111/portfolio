@@ -1,4 +1,5 @@
 import React from 'react';
+import { SkillsList } from '../components/SkillsList';
 
 export interface CommandResponse {
     type: 'text' | 'component';
@@ -41,19 +42,8 @@ export const commands: Record<string, CommandResponse> = {
         ),
     },
     skills: {
-        type: 'text',
-        content: (
-            <div className="text-gray-300">
-                <p className="mb-2">Technical Skills:</p>
-                <ul className=" pl-5">
-                    <li>Frontend: React, JavaScript, Tailwind CSS, Next.js</li>
-                    <li>Backend: Node.js, Python</li>
-                    <li>Database: PostgreSQL</li>
-                    <li>Tools: Git</li>
-                    <li>Languages: C++,C,java,python</li>
-                </ul>
-            </div>
-        ),
+        type: 'component',
+        content: <SkillsList />,
     },
     contact: {
         type: 'text',

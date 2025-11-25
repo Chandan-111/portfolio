@@ -32,7 +32,7 @@ const AnimatedOutput: React.FC<AnimatedOutputProps> = ({ children }) => {
             const timeout = setTimeout(() => {
                 setDisplayedText(prev => prev + fullText[currentIndex]);
                 setCurrentIndex(prev => prev + 1);
-            }, 20); // Typing speed in ms
+            }, 10); // Typing speed in ms
 
             return () => clearTimeout(timeout);
         }
