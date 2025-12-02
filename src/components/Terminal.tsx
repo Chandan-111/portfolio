@@ -69,7 +69,7 @@ const Terminal: React.FC = () => {
           <span className="text-blue-400">chandan@portfolio:~$</span> <span className="text-green-400">welcome</span>
           <p className="mt-2 text-gray-300">Hi, I'm Chandan, a Developer & AI Enthusiast.</p>
           <p className="mt-2 text-gray-300">Welcome to my interactive AI portfolio terminal! haha!</p>
-          <p className="text-gray-300">Chat with my AI  assistant to navigate my portfolio.</p>
+          <p className="text-gray-300">Chat with my friendly AI assistant .</p>
         </div>
 
         {history.map((item, index) => (

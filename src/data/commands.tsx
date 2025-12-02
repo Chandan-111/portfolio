@@ -52,6 +52,7 @@ export const commands: Record<string, CommandResponse> = {
                 <p>Email: <a href="mailto:chandangowdaks123@gmail.com" className="text-blue-400 hover:underline">chandangowdaks123@gmail.com</a></p>
                 <p>GitHub: <a href="https://github.com/Chandan-111" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:underline">github.com/Chandan-111</a></p>
                 <p>LinkedIn: <a href="https://in.linkedin.com/in/chandan-gowda-516652229" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:underline">linkedin.com/in/chandan-gowda-516652229</a></p>
+                <p>Instagram: <a href="https://www.instagram.com/interstellar_01_?igsh=eDFzd2x6ZWxxbWxt" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:underline">instagram.com/chandan_gowda_111/</a></p>
             </div>
         ),
     },
